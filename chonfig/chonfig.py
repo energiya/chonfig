@@ -2,6 +2,10 @@ __author__ = 'HSC'
 
 
 def main():
+    """
+
+    :rtype : None
+    """
     pass
 
 
