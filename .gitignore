@@ -39,3 +39,5 @@ Icon
 # PyCharm data
 # =========================
 .idea/
+.vagrant/
+Vagrantfile
