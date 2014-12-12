@@ -1,0 +1,16 @@
+[paths]
+vscan=C:\Program Files (x86)\Windows Multimedia Platform\v  scan
+bd7=%(paths.vscan)s\bd7
+
+[exes]
+__ext = .exe
+vscan = %(paths.vscan)s\vscan%(exes.__ext)s
+bd7 = %(paths.bd7)s\bdc%(exes.__ext)s
+
+[functions]
+func1 = def test(word):
+    if word == 'test':
+        print('I like turtles')
+
+[sect3]
+test1=%functie1(%functie2(%(exes.bd7)sabecedar)f)f
